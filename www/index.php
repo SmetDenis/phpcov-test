@@ -14,8 +14,8 @@ if ($hasXDebug) {
     }
 
     /**
-     * It seems the fail is hear
-     * Only PHP7 + xdebug in PHP built-in server
+     * It seems the fail is here
+     * Only with PHP7 + xdebug in PHP built-in server
      * For PHP_SAPI == 'cli-server'
      */
     $codeCoverage->start('id-42', true); // <===
